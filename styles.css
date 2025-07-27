@@ -1071,6 +1071,10 @@ a {
   }
 
   .testimonial__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 
