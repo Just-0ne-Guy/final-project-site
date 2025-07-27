@@ -479,6 +479,7 @@ h1 {
 }
 
 .step__number {
+  width: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1152,7 +1153,17 @@ a {
     display: block;
     margin: 0 auto;
   }
+    .value__name {
+      margin: 0;
+    }
 
+    .values__description {
+      padding: 0;
+    }
+
+  .value__title,
+  .values__description,
+  .quality__row,
   .row__narrow {
     display: flex;
     flex-direction: column;
